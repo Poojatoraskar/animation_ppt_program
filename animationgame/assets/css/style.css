@@ -1,0 +1,59 @@
+body{
+    background: linear-gradient(90deg rgba( 34,35,51,1)4% ,rgba(101,101,158,1)69%) ;
+    margin: 0;
+    background:rgba( 34,35,51,1) ;
+    overflow-y: hidden;
+}
+.night{
+    height: 90vh;
+    width: 70vw;
+    border: 2px solid rgba( 44,32,212);
+    margin: 3rem auto;
+    background: url(../images/night.jpg);
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+}
+.road{
+    height: 30%;
+    width: 500%;
+    background: url(../images/rd.png);
+    display: block;
+    position: absolute;
+    bottom: 9%;
+    right:0%;
+    background-repeat: repeat-x;
+    animation: carmove 20s  linear infinite;
+}
+.car{
+    position: absolute;
+    bottom: 1%;
+    right:2%;
+    animation: updown 1s linear infinite;
+    
+}
+.car img{
+    width: 200px;
+   
+}
+audio{
+    background: transparent;
+    z-index: -1;
+}
+
+@keyframes carmove{
+    100%{
+        transform:translateX(5000px)
+    }
+}
+@keyframes updown{
+    100%{
+        transform:translateY(-1px)
+    }
+    50%{
+        transform:translateY(1px)
+    }
+    0%{
+        transform:translateY(-1px)
+    }
+}

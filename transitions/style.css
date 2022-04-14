@@ -1,0 +1,70 @@
+.transitionone{
+    width: 100px;
+    height: 100px;
+     background: red;
+    transition: width 2s;
+    /* transition: width 2s, height 4s; */
+}
+.transitionone:hover {
+    width: 300px;
+    /* width: 300px;
+    height: 300px; */
+  }
+
+
+
+.timingfunction{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+    margin-top: 20px;
+}
+#div1 {transition-timing-function: linear;}
+#div2 {transition-timing-function: ease;}
+#div3 {transition-timing-function: ease-in;}
+#div4 {transition-timing-function: ease-out;}
+#div5 {transition-timing-function: ease-in-out;}
+
+.timingfunction:hover {
+  width: 300px;
+}
+
+.delay{
+    width: 100px;
+  height: 100px;
+  background: pink;
+  transition: width 3s;
+  transition-delay: 1s;
+}
+.delay:hover {
+    width: 300px;
+  }
+
+
+  .transition_transform{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s, height 2s, transform 2s;
+  }
+  .transition_transform:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+  }
+
+
+.shourthand{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+    /* transition: width 2s linear 1s; */
+}
+.shourthand:hover{
+    width: 300px;
+}

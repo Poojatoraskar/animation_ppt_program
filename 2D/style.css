@@ -1,0 +1,73 @@
+
+.translate{
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    /* transform: translate(50px,100px); */
+}
+
+.rotate{
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    /* transform: rotate(20deg); */
+    /* transform: rotate(-20deg); */
+}
+.scale{
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    /* transform: scale(2,3); */
+    /* transform: scale(0.5,0.5); */
+}
+.scaleX{
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    /* transform: scaleX(2); */
+    /* transform: scaleX(0.5); */
+}
+.scaley{
+  
+  width: 200px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  /* transform: scaleY(3); */
+  /* transform: scaleY(0.5); */
+}
+.skew{
+    width: 300px;
+    height: 100px;
+    background-color:red;
+    border: 1px solid black;
+    /* transform: skew(20deg,10deg); */
+    /* transform: skew(20deg); */
+}
+.skewX{
+    width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  /* transform: skewX(20deg); */
+}
+.skewy{
+    width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  /* transform: skewY(20deg); */
+}
+.matrix{
+    width: 300px;
+  height: 100px;
+  background-color: blue;
+  border: 1px solid black;
+  /* transform: matrix(1, -0.3, 0, 1, 0, 0); */
+}

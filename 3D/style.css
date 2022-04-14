@@ -1,0 +1,21 @@
+.rotatex{
+    width: 300px;
+  height: 100px;
+  background-color: blue;
+  border: 1px solid black;
+  /* transform: rotateX(150deg); */
+}
+.rotatey{
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    /* transform: rotateY(150deg); */
+}
+.rotatez{
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+    /* transform: rotateZ(90deg); */
+}
