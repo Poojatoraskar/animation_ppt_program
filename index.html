@@ -2,16 +2,86 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>PPT</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>		 
+		h3 {
+			margin-top: 0;
+			margin-bottom: 0;
+			padding: 15px 0;
+            color: #fff;
+		}
+		.table {
+			margin-top: 20px;
+			counter-reset: section;
+		}
+		th {
+			background-color: #212529;
+			color: #fff;
+		}
+		.table tbody tr td:first-child::before {
+			counter-increment: section;
+			content: counter(section);
+		}
+		
+	</style>
 </head>
 <body>
-    <a href="./2D/2d_animation.html">2d</a>
+    <!-- <a href="./2D/2d_animation.html">2d</a>
     <a href="./3D/3d_animation.html">3d</a>
     <a href="./transitions/index.html">transitions</a>
     <a href="./animation/index.html">animation</a>
     <a href="./animationgame/index.html">animation game one</a>
-    <a href="./gameanimation/index.html">animation game two</a>
+    <a href="./gameanimation/index.html">animation game two</a> -->
+    <header class="bg-primary">
+		<h3 class="text-center">css all program</h3>
+	</header>
+	<main>
+		<div class="container">
+            <div class="col-md-6 mx-auto">
+			<div class="table-responsive">
+				<table class="table">
+					<thead>
+						<tr>
+							<th>No</th>
+							<th>Assignment Name</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td></td>
+                            <td> <a href="./2D/2d_animation.html">2d</a></td>
+                        </tr>
+                        <tr>
+							<td></td>
+                            <td> <a href="./3D/3d_animation.html">3d</a></td>
+                        </tr>
+                        <tr>
+							<td></td>
+                            <td> <a href="./transitions/index.html">transitions</a></td>
+                        </tr>
+						<tr>
+							<td></td>
+                            <td><a href="./animation/index.html">animation</a></td>
+                        </tr>
+						<tr>
+							<td></td>
+                            <td><a href="./animationgame/index.html">animation game one</a></td>
+                        </tr>
+						<tr>
+							<td></td>
+                            <td><a href="./gameanimation/index.html">animation game two</a></td>
+                        </tr>
+						
+					
+					</tbody>
+				</table>
+			</div>
+        </div>
+		</div>
+	</main>
 </body>
 </html>
